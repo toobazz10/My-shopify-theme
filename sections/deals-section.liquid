@@ -1,0 +1,25 @@
+<section class="deals-section">
+  <div class="container">
+    <div class="deals-header">
+      <div>
+        <h2>Deals and offers</h2>
+        <p>Hygiene equipments</p>
+      </div>
+      <div class="countdown">
+        <div class="time-box"><span>04</span><small>Days</small></div>
+        <div class="time-box"><span>13</span><small>Hour</small></div>
+        <div class="time-box"><span>34</span><small>Min</small></div>
+        <div class="time-box"><span>56</span><small>Sec</small></div>
+      </div>
+    </div>
+    <div class="products-row">
+      {% for i in (1..5) %}
+      <div class="product-card">
+        <img src="https://via.placeholder.com/180x180/FFFFFF/333333?text=Product+{{i}}" alt="Product">
+        <h3>Product name</h3>
+        <span class="discount">-{{ 12 | times:i }}%</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
