@@ -1,0 +1,43 @@
+<header class="site-header">
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar__right">
+        <span><i class="fa-solid fa-globe"></i> {{ settings.location_text }}</span>
+      </div>
+    </div>
+  </div>
+  <div class="header-main">
+    <div class="container">
+      <div class="header-inner">
+        <a href="{{ routes.root_url }}" class="brand-logo">{{ settings.site_name }}</a>
+        <div class="search-box">
+          <form action="{{ routes.search_url }}" method="get">
+            <input type="text" name="q" placeholder="Find product" class="search-input">
+            <select class="search-cat">
+              <option>All category</option>
+              <option>Automobiles</option>
+              <option>Home appliance</option>
+            </select>
+            <button type="submit" class="search-btn">Search</button>
+          </form>
+        </div>
+        <div class="header-icons">
+          <a href="{{ routes.account_orders_url }}"><i class="fa-solid fa-file-lines"></i></a>
+          <a href="#"><i class="fa-regular fa-heart"></i></a>
+          <a href="{{ routes.cart_url }}"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="{{ routes.account_login_url }}"><i class="fa-solid fa-user"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="main-nav">
+    <div class="container">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#">All category</a></li>
+        <li class="nav-item"><a href="#">Hot offers</a></li>
+        <li class="nav-item"><a href="#">Services</a></li>
+        <li class="nav-item"><a href="#">Bestsellers</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
