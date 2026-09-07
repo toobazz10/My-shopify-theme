@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Theme Settings",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Colours"
+      },
+      {
+        "type": "color",
+        "id": "primary_color",
+        "label": "Primary Colour",
+        "default": "#2244dd"
+      },
+      {
+        "type": "color",
+        "id": "accent_color",
+        "label": "Accent Colour",
+        "default": "#ff3366"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Colour",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Colour",
+        "default": "#333333"
+      },
+      {
+        "type": "header",
+        "content": "Header"
+      },
+      {
+        "type": "text",
+        "id": "site_name",
+        "label": "Site Name",
+        "default": "Brandname"
+      },
+      {
+        "type": "text",
+        "id": "location_text",
+        "label": "Location Text",
+        "default": "Germany, EUR €"
+      }
+    ]
+  }
+]
