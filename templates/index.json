@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "hero-banners": {
+      "type": "hero-banners"
+    },
+    "deals-section": {
+      "type": "deals-section"
+    },
+    "category-products-1": {
+      "type": "category-products-1"
+    },
+    "category-products-2": {
+      "type": "category-products-2"
+    }
+  },
+  "order": ["hero-banners", "deals-section", "category-products-1", "category-products-2"]
+}
