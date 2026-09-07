@@ -1,0 +1,20 @@
+<section class="category-section">
+  <div class="container">
+    <div class="category-block">
+      <div class="category-sidebar">
+        <h2>Home and outdoor products</h2>
+        <a href="/collections/all" class="explore-link">Explore all</a>
+        <img src="https://via.placeholder.com/280x300/F0F5F0/335533?text=Home+Decor" alt="Home & Outdoor">
+      </div>
+      <div class="products-grid">
+        {% for i in (1..8) %}
+        <div class="product-card-small">
+          <img src="https://via.placeholder.com/120x120/FFFFFF/444444?text=Item+{{i}}" alt="Item">
+          <h3>Product name</h3>
+          <p>From USD {{ 15 | times:i }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
